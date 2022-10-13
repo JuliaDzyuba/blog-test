@@ -1,3 +1,13 @@
+## 🏃‍♂️ Simple start
+
+1. **`npm install`** at the root
+2. **`npm run start`** at the root
+3. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+4. Enjoy <3
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
