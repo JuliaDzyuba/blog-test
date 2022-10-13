@@ -1,0 +1,39 @@
+.list {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 0;
+  li {
+    list-style: none;
+    a {
+      display: block;
+      width: 300px;
+    } 
+  }  
+}
+
+h1 {
+  text-align: center;
+  margin: 20px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  margin: auto;
+  padding: 5px 15px;
+  min-height: 50px;
+  background-color: rgb(52, 52, 253);
+  color: yellow;
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: 1px solid rgb(52, 52, 253);
+}

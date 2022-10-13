@@ -1,0 +1,56 @@
+@import '~antd/dist/antd.css';
+
+.ant-layout {
+  min-height: 100vh;
+}
+
+.ant-layout-header, .ant-layout-footer {  
+  background-color: rgb(52, 52, 253);
+  text-align: center;
+  h2, h3 {
+    color: yellow;
+  }
+}
+
+.ant-layout-footer {
+  margin-top: auto;
+}
+
+.ant-layout-content {
+  max-width: 1400px;
+  min-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
+.ant-card {
+  min-height: 200px;
+}
+
+.ant-card-body p{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  max-height: 100px;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.ant-btn.ant-btn-dashed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+  margin: 20px auto;
+  padding: 5px 15px;
+  min-height: 50px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+  &:hover {
+    background-color: rgb(214, 2, 2);
+    border: 1px solid rgb(214, 2, 2);
+  }
+}

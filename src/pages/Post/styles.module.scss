@@ -1,0 +1,28 @@
+.post {
+  h1 {
+    text-align: center;
+    margin: 20px;
+  }
+  h3, ul, form {
+    margin-left: 50px;
+  }  
+  ul, form {
+    max-width: 800px;
+  }
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  margin: 20px auto;
+  padding: 5px 15px;
+  min-height: 50px;
+  background-color: rgb(52, 52, 253);
+  color: yellow;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: 1px solid rgb(52, 52, 253);
+}
